@@ -1,0 +1,223 @@
+Hex Codes: #fccb06, #000000, #b1ddf1
+
+before:ease
+ relative 
+ flex 
+ mt-6 
+ items-center 
+ justify-center 
+ w-[250px] 
+ h-[50px] 
+ overflow-hidden 
+ rounded-[30px] 
+ bg-[#9c28b1] 
+ font-[Roboto] 
+ text-white 
+ shadow-2xl 
+ transition-all 
+ before:absolute 
+ before:right-0 
+ before:top-0 
+ before:h-12 
+ before:w-6 
+ before:translate-x-12 
+ before:rotate-6 
+ before:bg-white 
+ before:opacity-10 
+ before:duration-700 
+ hover:shadow-[#9c28b1] 
+ hover:before:-translate-x-80
+
+
+ 
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+portfolio_wrapper .nav-link {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    margin-right: 0.25rem;
+    color: var(--text-black);
+    text-transform: uppercase;
+} 
+
+/* .portfolio_wrapper .nav-link.active {
+    /* color: var(--secondary-text); 
+    background-color: transparent;
+} */
+
+/* .portfolio_wrapper .portfolio-img {
+    position: relative;
+    cursor: pointer;
+} */
+
+/* .portfolio-img img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+} */
+/* .portfolio-img img:hover{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    transition: all 1s ease;
+    transform: scale(1.1);
+} */
+
+/* 
+.portfolio_wrapper .portfolio-img .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+
+
+.portfolio_wrapper .portfolio-img:hover .overlay {
+    background: rgba(77, 87, 222, .5);
+}
+*/
+/* .portfolio-img .overlay i {
+    font-size: 6.25rem;
+    color:rgb(111, 72, 148);
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+} */
+
+/* .portfolio_wrapper .portfolio-img:hover i {
+    opacity: 1;
+    visibility: visible;
+    top: 50%;
+    left: 50%;
+} */
+
+
+
+<!-- <section id="portfolio" class="portfolio_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-left mb-md-5 mb-2">
+                    <h3 class="projectStartHeading">QUALITY WORK <br>RECENTLY DONE PROJECT</h3>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-one-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-one" type="button" role="tab" aria-controls="pills-one"
+                            aria-selected="true">Popular</button>
+                    </li>
+                
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-three-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-three" type="button" role="tab" aria-controls="pills-three"
+                            aria-selected="true">Upcoming</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-one" role="tabpanel"
+                        aria-labelledby="pills-one-tab">
+                        <div class="row  d-flex justify-content-around">
+                            <div class="col-lg-4 col-sm-6 proj-border">
+                                <div class="portfolio-img border border-danger">
+                                    <img decoding="async" src="./images/portfolio/Amazon_clone.png" class="img-fluid w-100">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                                <div class="about-proj">
+                                <h5 class="mb-0 mt-4">Amazon Clone</h5>
+                                <p class="lavender-text text-white mt-2">HTML,CSS,JAVASCRIPT</p>
+                                <a href="#" class="main-btn primary-btn mb-2">Preview</a>
+                                </div>
+                            </div>
+                             
+                            <div class="col-lg-4 col-sm-6 proj-border">
+                              <div class="portfolio-img">
+                                  <img decoding="async" src="./images/portfolio/image_search.png" class="img-fluid w-100">
+                                  <div class="overlay"> <i class="fas fa-plus"></i></div>
+                              </div>
+                              <div class="about-proj">
+                              <h5 class="mb-0 mt-4">Image Searching App</h5>
+                              <p class="text-teal mt-2">HTML,CSS, JAVASCRIPT,API</p>
+                              <a href="https://kishan94700.github.io/KISHAN94700/" class="main-btn secondary-btn mt-4 mb-4" target="_blank">Preview</a>
+                              </div>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 proj-border">
+                                <div class="portfolio-img">
+                                    <img decoding="async" src="./images/portfolio/color_guessing.png" class="img-fluid w-100">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                                <div class="about-proj">
+                                <h5 class="mb-0 mt-4">Color Guessing Game</h5>
+                                <p class="lavender-text">HTML , CSS, JAVASCRIPT</p>
+                                <a href="https://kishan94700.github.io/color-guessing-game/index.html" class="main-btn primary-btn mt-4 colorteal" target="_blank">Preview</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                   // UPCOMING PROJECT
+
+                    <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6 proj-border2">
+                                <div class="portfolio-img">
+                                    <img decoding="async" src="./images/portfolio/movie_site.png" class="img-fluid w-100">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                                <div class="about-proj">
+                                <h5 class="mb-0 mt-4">Movies Sites</h5>
+                                <p class="lavender-text text-white mt-2">ReactJS ,HTML,CSS</p>
+                                <a href="#" class="main-btn primary-btn mt-4 mb-4">Preview</a>
+                                </div>  
+                            </div>
+                            <div class="col-lg-4 col-sm-6 proj-border2">
+                                <div class="portfolio-img">
+                                    <img decoding="async" src="./images/portfolio/record.png" class="img-fluid w-100">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                                <div class="about-proj">
+                                <h5 class="mb-0 mt-4">Record Keeping App</h5>
+                                <p class="text-teal">ReactJS,HTML,CSS,JavaSript</p>
+                                <a href="#" class="main-btn secondary-btn mt-4">Preview</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 proj-border2">
+                                <div class="portfolio-img">
+                                    <img decoding="async" src="./images/portfolio/portfolio8.webp" class="img-fluid w-100">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                                <div class="about-proj">
+                                <h5 class="mb-0 mt-4">MINIMAL DESIGN</h5>
+                                <p class="lavender-text">Animated, portfolio</p>
+                                <a href="#" class="main-btn primary-btn mt-4 colorteal">Preview</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+        <!-- portfolio Section exit -->
